@@ -14,7 +14,7 @@ document.body.insertBefore(button, container);
 button.textContent = "Press to select the number of squares for your grid";
 
 function createGrid(number) {
-    for (number = 0; i < (number * 2); i++) {
+    for (let i = 0; i < (number * number); i++) {
     const div = document.createElement("div");
     div.classList.add("basic");
     container.appendChild(div);
