@@ -21,7 +21,7 @@ button.addEventListener("click", () => {
             container.innerHTML = "";
             createGrid(number);
         } else {
-            return "Please enter a whole number greater than zero and less than 100"
+            alert("Please enter a whole number between 1 and 100")
         };
     };
 }
