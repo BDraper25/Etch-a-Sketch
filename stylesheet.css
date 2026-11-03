@@ -12,4 +12,5 @@
     flex-shrink: 0;
     border-style: dashed;
     border-color: grey;
+    border-width: 1px;
 }
