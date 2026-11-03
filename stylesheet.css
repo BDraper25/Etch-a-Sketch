@@ -7,4 +7,5 @@
 .basic {
     width: 60px;
     height: 60px;
+    border-style: dashed;
 }
