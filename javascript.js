@@ -13,7 +13,7 @@ const button = document.createElement("button");
 document.body.insertBefore(button, container);
 button.textContent = "Press to select the number of squares for your grid";
 button.addEventListener("click", () => {
-    prompt("How many squares would you like per side?")
+    const userInput = prompt("How many squares would you like per side?")
 }) 
 
 function createGrid(number) {
