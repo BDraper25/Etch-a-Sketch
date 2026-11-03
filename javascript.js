@@ -10,3 +10,4 @@ for (let i = 0; i < 256; i++) {
 }
 
 const button = document.createElement("button");
+document.body.insertBefore(container, button);
