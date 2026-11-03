@@ -12,6 +12,9 @@ for (let i = 0; i < 256; i++) {
 const button = document.createElement("button");
 document.body.insertBefore(button, container);
 button.textContent = "Press to select the number of squares for your grid";
+button.addEventListener("click", () => {
+    prompt("How many squares would you like per side?")
+}) 
 
 function createGrid(number) {
     for (let i = 0; i < (number * number); i++) {
