@@ -20,8 +20,11 @@ button.addEventListener("click", () => {
         if (Number.isInteger(number) && number > 0 && number <= 100) {
             container.innerHTML = "";
             createGrid(number);
-    } 
-}}
+        } else {
+            return "Please enter a whole number greater than zero and less than 100"
+        };
+    };
+}
 );
 
 
