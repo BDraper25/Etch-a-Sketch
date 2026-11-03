@@ -10,7 +10,6 @@ for (let i = 0; i < 256; i++) {
 }
 
 const button = document.createElement("button");
-document.body.appendChild(button);
 document.body.insertBefore(button, container);
 button.textContent = "Press to select the number of squares for your grid";
 
