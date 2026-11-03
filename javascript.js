@@ -18,7 +18,8 @@ button.addEventListener("click", () => {
     const number = Number(userInput);
     
         if (Number.isInteger(number) && number > 0 && number <= 100) {
-    
+            container.innerHTML = "";
+            createGrid(number);
     } 
 }}
 );
