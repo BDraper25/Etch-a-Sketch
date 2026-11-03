@@ -2,10 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     width: 960px;
+    
 }
 
 .basic {
     width: 60px;
     height: 60px;
+    box-sizing: border-box;
     border-style: dashed;
 }
