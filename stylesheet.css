@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+}
+
+.basic {
+    width: 60px;
+    height: 60px;
+}
