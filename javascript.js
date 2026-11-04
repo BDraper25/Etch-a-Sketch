@@ -25,13 +25,13 @@ function createGrid(number) {
     const squareSize = 960 / number;
     
     for (let i = 0; i < (number * number); i++) {
-    const div = document.createElement("div");
-    div.classList.add("basic");
-    div.style.width = `${squareSize}px`;
-    div.style.height = `${squareSize}px`;
-    container.appendChild(div);
-    div.addEventListener("mouseenter", () => {
-        div.style.backgroundColor = "blue";
+        const div = document.createElement("div");
+        div.classList.add("basic");
+        div.style.width = `${squareSize}px`;
+        div.style.height = `${squareSize}px`;
+        container.appendChild(div);
+        div.addEventListener("mouseenter", () => {
+            div.style.backgroundColor = "blue";
     })
 }
 };
