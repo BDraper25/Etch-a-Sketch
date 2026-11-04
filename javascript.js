@@ -34,4 +34,6 @@ function createGrid(number) {
         div.style.backgroundColor = "blue";
     })
 }
-}
+};
+
+createGrid(16);
