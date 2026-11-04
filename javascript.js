@@ -19,7 +19,13 @@ button.addEventListener("click", () => {
 }
 );
 
+function randomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
 
+    return `rgb(${r}, ${g}, ${b})`;
+};
 
 function createGrid(number) {
     const squareSize = 960 / number;
