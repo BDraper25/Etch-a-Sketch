@@ -35,6 +35,7 @@ function createGrid(number) {
         div.classList.add("basic");
         div.style.width = `${squareSize}px`;
         div.style.height = `${squareSize}px`;
+        div.style.opacity = 1;
         container.appendChild(div);
         div.addEventListener("mouseenter", () => {
             div.style.backgroundColor = randomColor();
