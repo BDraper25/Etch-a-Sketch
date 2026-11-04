@@ -37,7 +37,7 @@ function createGrid(number) {
         div.style.height = `${squareSize}px`;
         container.appendChild(div);
         div.addEventListener("mouseenter", () => {
-            div.style.backgroundColor = "blue";
+            div.style.backgroundColor = randomColor();
     })
 }
 };
